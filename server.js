@@ -28,6 +28,7 @@ const io = new Server(server , {
     		"Access-Control-Allow-Methods":"GET,POST",
     		"Access-Control-Allow-Credentials":true,
     	})
+      res.end();
     }
   }
 });
